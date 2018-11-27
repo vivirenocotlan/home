@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cuartos en renta</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!-- hasta qui las etiquetas iniciales de bootstrap -->
+  <link rel="shortcut icon" href="img/icon.png">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/index.css" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="/javascript/index.js"></script></s>
+
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  </style>
+</head>
+<body>
+    
+
+
+
+<section class="intro">
+  <div class="inner">
+    <div class="content text-center">
+    <h1 class="text-uppercase">
+      <strong>Vivir en Ocotlán</strong>
+    </h1>
+    <hr>
+    <P>El lugar perfecto para rentar cuarto en Ocotlán</P>
+    <div class="row  ">        
+            <a class="btn btn-default btn-md opciones" id="p1" href="#pane1" role="tab">Precios</a>
+        
+       
+            <a class="btn btn-default btn-md opciones" id="p2" href="#pane2" role="tab">Ubicación</a>
+        
+       
+            <a class="btn btn-default btn-md opciones" id="p3" href="#pane3" role="tab">Galería</a>
+        
+       
+            <a  class="btn btn-default btn-md opciones" id="p4" href="#pane4" role="tab">Contacto</a>
+        
+        
+    </div>
+      
+    </div>
+  </div>
+  
+</section>
+
+<div  class="jumbotron text-center rojo" >
+  <h1>Tenemos lo que necesitas</h1>
+  <hr>
+  <p> Todas las comodidades de un hotel a menor precio - La mejor vista de la ciudad - Servicios ejecutivos - Planes de pago - Facturamos - Sin plazos forzosos - Seguridad 24/7</p>
+
+  
+</div>
+
+
+<div class="jumbotron blanco text-center" >      
+      
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+            
+              <i class="fa fa-home icono"style="font-size: 90px"></i>
+              <h3 class="mb-3">Instalaciones</h3>
+              <p class="text-muted mb-0">32 cuartos individuales - 3 salas lounge compartidas con servicios multimedia - 2 cocinas completas compartidas - 7 baños completos compartidos - 1 lavandería - 1 sala de juegos - Estacionamiento ( con costo extra) - El mejor roof garden de toda la ciudad</p>
+            </div>
+          
+          <div class="col-lg-4 col-md-6 text-center">
+            
+              <i class="fa fa-bath icono"style="font-size: 90px"></i>
+              <h3 class="mb-3">Servicios</h3>
+              <p class="text-muted mb-0">Gas - El Internet más rápido de la ciudad - Agua caliente 24/7 sin prender boiler - Electricidad - Medidas de seguridad - Administrador durante horario de oficina - Mantenimiento constante</p>
+            </div>
+          
+          <div class="col-lg-4 col-md-6 text-center">
+            
+              <i class="glyphicon glyphicon-hd-video icono"></i>
+              <h3 class="mb-3">Entretenimiento</h3>
+              <p class="text-muted mb-0">Sala de juegos con mesa de billar - El roof garden mas grande de la ciudad - Asador incluido - Pantallas de 40 con cable HD y HBO, mas de 500 DVDs CDs de música</p>
+            
+          </div>
+      
+</div>
+</div>
+
+<div class="jumbotron rojo2" id="pane1">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h1 class="section-heading">Precios</h1>
+            <hr class="my-4">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <h3 class="mb-3">Semana</h3>
+              <p class="text-muted mb-0">$700, el cliente debe traer sus sábanas y almohada.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <h3 class="mb-3">Mes</h3>
+              <p class="text-muted mb-0">$2,000, el cliente debe traer sus sábanas y almohada.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <h3 class="mb-3">Semestre</h3>
+              <p class="text-muted mb-0">$11,000, el cliente debe traer sus sábanas y almohada.</p>
+            </div>
+          </div>
+        </div>
+        
+      
+</div>  
+
+
+ <!-- mapa -->
+<div class="mapa text-center" id="pane2">
+  <h1>Ubicación</h1>
+
+
+
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1870.2698463791014!2d-102.77438368853684!3d20.360626055869623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842ed8e85285725b%3A0x610904ba0310062f!2sCuartos+de+Renta+en+Ocotl%C3%A1n+para+hombres+y+mujeres!5e0!3m2!1ses-419!2smx!4v1518211253067" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+    
+</div>
+
+<div class="container text-center negro" id="pane3" >
+  
+  <div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <h1 style="color:white">Galería</h1>
+    <!-- Indicators -->
+    
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" >
+
+      <div class="item active img-responsive">
+        <img src="img/galery/1.jpg" alt="Chania"  >
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/2.jpg" alt="Chania"  style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="img/galery/3.jpg" alt="Flower"  style="width:100%;" >
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/4.jpg" alt="Flower"  style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/5.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/6.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/7.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/8.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/9.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/10.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/11.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/12.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+    
+
+      <div class="item">
+        <img src="img/galery/14.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/15.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/16.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/17.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/18.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/19.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="img/galery/20.jpg" alt="Flower" style="width:100%;">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+      <div class="item">
+          <img src="img/galery/21.jpg" alt="Flower" style="width:100%;">
+          <div class="carousel-caption">
+            <h3></h3>
+            <p></p>
+          </div>
+        </div>
+        <div class="item">
+            <img src="img/galery/22.jpg" alt="Flower" style="width:100%;">
+            <div class="carousel-caption">
+              <h3></h3>
+              <p></p>
+            </div>
+          </div>
+          <div class="item">
+              <img src="img/galery/23.jpg" alt="Flower" style="width:100%;">
+              <div class="carousel-caption">
+                <h3></h3>
+                <p></p>
+              </div>
+            </div>
+            <div class="item">
+                <img src="img/galery/24.jpg" alt="Flower" style="width:100%;">
+                <div class="carousel-caption">
+                  <h3></h3>
+                  <p></p>
+                </div>
+              </div>
+              <div class="item">
+                  <img src="img/galery/25.jpg" alt="Flower" style="width:100%;">
+                  <div class="carousel-caption">
+                    <h3></h3>
+                    <p></p>
+                  </div>
+                </div>
+                <div class="item">
+                    <img src="img/galery/26.jpg" alt="Flower" style="width:100%;">
+                    <div class="carousel-caption">
+                      <h3></h3>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="item">
+                      <img src="img/galery/27.jpg" alt="Flower" style="width:100%;">
+                      <div class="carousel-caption">
+                        <h3></h3>
+                        <p></p>
+                      </div>
+                    </div>
+                    <div class="item">
+                        <img src="img/galery/28.jpg" alt="Flower" style="width:100%;">
+                        <div class="carousel-caption">
+                          <h3></h3>
+                          <p></p>
+                        </div>
+                      </div>
+                      <div class="item">
+                          <img src="img/galery/29.jpg" alt="Flower" style="width:100%;">
+                          <div class="carousel-caption">
+                            <h3></h3>
+                            <p></p>
+                          </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/galery/30.jpg" alt="Flower" style="width:100%;">
+                            <div class="carousel-caption">
+                              <h3></h3>
+                              <p></p>
+                            </div>
+                          </div>
+                          <div class="item">
+                              <img src="img/galery/31.jpg" alt="Flower" style="width:100%;">
+                              <div class="carousel-caption">
+                                <h3></h3>
+                                <p></p>
+                              </div>
+                            </div>
+                            <div class="item">
+                                <img src="img/galery/32.jpg" alt="Flower" style="width:100%;">
+                                <div class="carousel-caption">
+                                  <h3></h3>
+                                  <p></p>
+                                </div>
+                              </div>
+
+
+  
+  </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+<!-- script galeria -->
+  <script>
+  $(document).ready(function(){
+      // Activate Carousel
+      $("#myCarousel").carousel();
+      
+      // Enable Carousel Indicators
+      $(".item1").click(function(){
+          $("#myCarousel").carousel(0);
+      });
+      $(".item2").click(function(){
+          $("#myCarousel").carousel(1);
+      });
+      $(".item3").click(function(){
+          $("#myCarousel").carousel(2);
+      });
+      $(".item4").click(function(){
+          $("#myCarousel").carousel(3);
+      });
+      $(".item5").click(function(){
+          $("#myCarousel").carousel(4);
+      });
+      $(".item6").click(function(){
+          $("#myCarousel").carousel(5);
+      });
+      $(".item7").click(function(){
+          $("#myCarousel").carousel(6);
+      });
+      $(".item8").click(function(){
+          $("#myCarousel").carousel(7);
+      });
+      $(".item9").click(function(){
+          $("#myCarousel").carousel(8);
+      });
+      $(".item10").click(function(){
+          $("#myCarousel").carousel(9);
+      });
+      $(".item11").click(function(){
+          $("#myCarousel").carousel(10);
+      });
+      $(".item12").click(function(){
+          $("#myCarousel").carousel(11);
+      });
+      $(".item14").click(function(){
+          $("#myCarousel").carousel(13);
+      });
+      $(".item15").click(function(){
+          $("#myCarousel").carousel(14);
+      });
+      $(".item16").click(function(){
+          $("#myCarousel").carousel(15);
+      });
+      $(".item17").click(function(){
+          $("#myCarousel").carousel(16);
+      });
+      $(".item18").click(function(){
+          $("#myCarousel").carousel(17);
+      });
+      $(".item19").click(function(){
+          $("#myCarousel").carousel(18);
+      });
+      $(".item20").click(function(){
+          $("#myCarousel").carousel(19);
+      });
+      $(".item21").click(function(){
+          $("#myCarousel").carousel(20);
+      });
+      $(".item22").click(function(){
+          $("#myCarousel").carousel(21);
+      });
+      $(".item23").click(function(){
+          $("#myCarousel").carousel(22);
+      });
+      $(".item24").click(function(){
+          $("#myCarousel").carousel(23);
+      });
+      $(".item25").click(function(){
+          $("#myCarousel").carousel(24);
+      });
+      $(".item26").click(function(){
+          $("#myCarousel").carousel(25);
+      });
+      $(".item27").click(function(){
+          $("#myCarousel").carousel(26);
+      });
+      $(".item28").click(function(){
+          $("#myCarousel").carousel(27);
+      });
+      $(".item29").click(function(){
+          $("#myCarousel").carousel(28);
+      });
+      $(".item30").click(function(){
+          $("#myCarousel").carousel(29);
+      });
+      $(".item31").click(function(){
+          $("#myCarousel").carousel(30);
+      });
+      $(".item32").click(function(){
+          $("#myCarousel").carousel(31);
+      });
+      
+      
+      // Enable Carousel Controls
+      $(".left").click(function(){
+          $("#myCarousel").carousel("prev");
+      });
+      $(".right").click(function(){
+          $("#myCarousel").carousel("next");
+      });
+  });
+  </script>
+</div>
+
+<div  class="jumbotron blanco table-responsive" >
+  <h1 style="text-align: center">¿Por qué somos la mejor opción?</h1>
+  <hr>
+
+  <table class="table table-dark">
+    <!-- encabezados -->
+    <thead > 
+      <tr>
+        <th scope="col">    </th>
+        <th scope="col">Posada Compostela</th>
+        <th scope="col">Casa Individual</th>
+        <th scope="col">Casa Compartida</th>
+        <th scope="col">Hotel 1 estrella</th>
+      </tr>
+      <!-- primer tabla -->
+      <tr>
+        <th class="success"></th>
+        <th class="success"></th>
+        <th class="success" >Gastos iniciales</th>
+        <th class="success"></th>
+        <th class="success"></th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <th scope="row">contrato a 6 meses minimo</th>
+        <td>No</td>
+        <td>Si</td>
+        <td>Si</td>
+        <td>No</td>
+      </tr>
+      <tr>
+        <th scope="row">Amueblar</th>
+        <td>0</td>
+        <td>15,000</td>
+        <td>5,000</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <th scope="row">Fianza</th>
+        <td>0</td>
+        <td>1,000</td>
+        <td>300</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <th scope="row">Deposito inicial</th>
+        <td>0</td>
+        <td>1,500</td>
+        <td>700</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        <th></th>
+        
+      </tr>
+    <!-- segunda tabla -->
+
+      <tr>
+        <th class="success"></th>
+        <th class="success"></th>
+        <th class="success" >Gastos por primer mes</th>
+        <th class="success"></th>
+        <th class="success"></th>
+      </tr>
+      <tr>
+        <th scope="row">Renta</th>
+        <td>2,000</td>
+        <td>1,500</td>
+        <td>700</td>
+        <td>10,000</td>
+      </tr>
+      <tr>
+        <th scope="row">Gas</th>
+        <td>0</td>
+        <td>50</td>
+        <td>0</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <th scope="row">Internet</th>
+        <td>0</td>
+        <td>500</td>
+        <td>50</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <th scope="row">Energía Electrica</th>
+        <td>0</td>
+        <td>150</td>
+        <td>50</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <th scope="row">Agua potable</th>
+        <td>0</td>
+        <td>70</td>
+        <td>20</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <th scope="row">Limpieza 3 veces por semana</th>
+        <td>0</td>
+        <td>2,400</td>
+        <td>600</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <th scope="row">Mantenimiento extra</th>
+        <td>0</td>
+        <td>500</td>
+        <td>50</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <th scope="row">Cablevision</th>
+        <td>0</td>
+        <td>500</td>
+        <td>30</td>
+        <td>0</td>
+      </tr>
+      <tr>
+        <th scope="row">Total primer mes</th>
+        <td>2,000</td>
+        <td>5,670</td>
+        <td>1,500</td>
+        <td>10,000</td>
+      </tr>
+      <tr>
+        <th scope="row">Total por 6 meses</th>
+        <td>12,000</td>
+        <td>51,520</td>
+        <td>15,000</td>
+        <td>60,000</td>
+      </tr>
+      <!-- tercer tabla -->
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+          
+        </tr>
+        <tr>
+            <th class="success"></th>
+            <th class="success"></th>
+            <th class="success" >Amenidades</th>
+            <th class="success"></th>
+            <th class="success"></th>
+          </tr>
+          <tr>
+              <th scope="row">Internet con router industrial</th>
+              <td>Si</td>
+              <td>No</td>
+              <td>No</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+                <th scope="row">Mantenimiento incluido</th>
+                <td>Si</td>
+                <td>No</td>
+                <td>No</td>
+                <td>Si</td>
+              </tr>
+              <tr>
+                  <th scope="row">Seguridad con camaras</th>
+                  <td>Si</td>
+                  <td>No</td>
+                  <td>No</td>
+                  <td>Si</td>
+                </tr>
+                <tr>
+                    <th scope="row">Cumple normas proteccion civil</th>
+                    <td>Si</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td>Si</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">Facturan</th>
+                      <td>Si</td>
+                      <td>No</td>
+                      <td>No</td>
+                      <td>Si</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Futbolito y Videojuegos</th>
+                        <td>Si</td>
+                        <td>No</td>
+                        <td>No</td>
+                        <td>No</td>
+                      </tr>
+                      <tr>
+                          <th scope="row">Roof garden para descansar</th>
+                          <td>Si</td>
+                          <td>No</td>
+                          <td>No</td>
+                          <td>No</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Administrador en sitio</th>
+                            <td>Si</td>
+                            <td>No</td>
+                            <td>No</td>
+                            <td>Si</td>
+                          </tr>
+                          <tr>
+                              <th scope="row">Areas extras de recreacion</th>
+                              <td>Si</td>
+                              <td>No</td>
+                              <td>No</td>
+                              <td>No</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Cuarto individual</th>
+                                <td>Si</td>
+                                <td>Si</td>
+                                <td>No</td>
+                                <td>Si</td>
+                              </tr>
+                             
+
+            
+
+    </tbody>
+  </table>
+ 
+
+  
+</div>
+
+
+
+<!-- contactanos -->
+
+<div class=" container jumbotron text-center blanco" id="pane4">
+  <h1>Contáctanos</h1>
+  <hr>
+  <h2>¿Listo para vivir en el mejor lugar de Ocotlán? Llámanos o mándanos un Whatsapp</h2>
+
+    <div class="row">
+      <!-- <div class="col-lg-1"></div> -->
+      <div class="col-lg-2 " style="float:left">
+          <img src="img/contact/1.jpeg" style="height:50ex">
+      </div>
+      <div class="col-lg-1"></div>
+        <div class="col-lg-9 text-center">
+          <h2>
+              " Nosotros somos un equipo de hermanos que te atenderá y velará por que tu estancia sea la mejor posible "
+          </h2>  
+          <h2>
+                <i class="fa fa-whatsapp " style="font-size: 45px"></i> | <i class="fa fa-phone " style="font-size: 45px"></i>
+            </h2>
+            <p>33 21 83 24 04</p>
+        </div>
+        <!-- <div class="col-lg-1" ></div> -->
+
+    </div>
+
+      <div class="row">
+            <!-- <div class="col-lg-1 mr-auto"></div> -->
+            <div class="col-lg-2 " style="float:right">
+                <img src="img/contact/2.jpeg" style="height:50ex">
+            </div>
+            
+
+            <div class="col-lg-9  text-center" ></div>
+              <h2>
+                "Voici mon secret. Il est trés simple: on ne voit bien qu'avec le cœur. L'essentiel est invisible pour les yeux" Antoine de Saint Exupéry
+              </h2>
+              <h2>
+                    <i class="fa fa-whatsapp " style="font-size: 45px"></i> | <i class="fa fa-phone " style="font-size: 45px"></i>
+                </h2>
+                <p>39 21 05 62 79</p>
+            </div>
+            
+            
+
+      </div>
+       
+        
+        
+    
+</div>      
+
+</body>
+</html>

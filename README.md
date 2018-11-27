@@ -1,2 +1,2 @@
 # home
-pagina web vivir en ocotlan
+pagina web de vivir en ocotlan html bootstrap css javascript
