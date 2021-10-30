@@ -40,7 +40,7 @@ html,body{
 .intro .inner hr {
   max-width: 50px;
   border-width: 3px;
-  border-color: #ee4b28;
+  border-color: #ffe9d6;
 }
 
 .intro .inner hr.light {
@@ -53,36 +53,38 @@ html,body{
 	width: 100%;
 }
 
-.rojo{
+
+.crema{
 
 	margin-bottom: 0;
-	background-color: #ee4b28;
-	color: white;
+	background-color: #ffe9d6;
+	color: black;
 }
-.rojo h1{
-	color: white;
+.crema h1{
+	color: black;
 }
-.rojo p{
-	color: white;
+.crema p{
+	color: black;
 }
 
 
-.rojo hr{
+.crema hr{
 	max-width: 50px;
   border-width: 3px;
-  border-color: #ffff;
+  border-color: black;
 }
-.rojo h3{
+.crema h3{
 	color:black;
 }
+
 .blanco{
-	margin-top: : 10px;
+	margin-top: 10px;
 	background-color: #ffff;
 }
 .blanco hr{
 	max-width: 50px;
   border-width: 3px;
-  border-color: #ee4b28;
+  border-color: black;
 }
 .blanco h1{
 	color: black;
@@ -90,10 +92,13 @@ html,body{
 .blanco h3{
 	color: black;
 }
+.blanco p{
+	color: black;
+}
 
 .icono {
 	font-size: 90px;
-	color: #ee4b28;
+	color: black;
 }
 .mapa{
 	color: black;
@@ -106,20 +111,20 @@ html,body{
   border-width: 3px;
   border-color: black;
 }
-.rojo2{
-	background-color:#ee4b28;
-	color: white; 
+.crema2{
+	background-color:#ffe9d6;
+	color: black; 
 }
-.rojo2 p{
-	color:white;
+.crema2 p{
+	color:black;
 }
-.rojo2 h3{
+.crema2 h3{
 	color: black;
 }
-.rojo2 hr{
+.crema2 hr{
 	max-width: 50px;
   border-width: 3px;
-  border-color: #ffff;
+  border-color: black;
 }
 
 .galeria{
@@ -143,12 +148,19 @@ html,body{
 
 .opciones{
 	font-weight: bold;
-	color:white;
-	background-color: #ee4b28;
+	color:black;
+	background-color: #ffe9d6;
+	font-size: calc(0.5em + 0.5vw);
 }
 
 
+.crema{
+	margin-bottom: 0;
+	background-color:#ffe9d6;
+	width: 100%;
+}
 
+.estilo-x { font-size: calc(2em + 2vw) }
 
 
 
